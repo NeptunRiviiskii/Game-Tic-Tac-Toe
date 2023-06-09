@@ -55,7 +55,7 @@ class Game:
             elif self.sheet.table[0][0] == self.sheet.table[1][1] == \
                     self.sheet.table[2][2] == player_fig:
                 return 'w'
-            elif self.sheet.table[0][2] == self.sheet.table[2][2] == \
+            elif self.sheet.table[0][2] == self.sheet.table[1][1] == \
                     self.sheet.table[2][0] == player_fig:
                 return 'w'
 
